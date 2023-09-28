@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:"Fjalla One",sans-serif;
+    background-color:black;
+    
+}
+#container-quote{
+  background-color:red;
+  color:white;
+  height:40px;
+  text-align:center;
+  padding-top:10px;
+
+}
+#container-quote span{
+color:white;
+font-size:15px;
+font-family:'Fjalla One', sans-serif;
+letter-spacing:3;
+}
+
+
+#header-container {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.logo h2 {
+    margin-left: 10px;
+    color: white;
+}
+
+#nav-bar {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-bar li {
+    margin-right: 20px;
+}
+#nav-bar a {
+    color: white; 
+    text-decoration: none; 
+}
+
+#nav-bar a:hover {
+    color: purple; 
+    text-decoration: underline; 
+}
+.Home-landing{
+    display:flex;
+    justify-content:flex-start;
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+#form-container {
+    text-align: center;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    width:50%;
+    height:100%;
+    color:white;
+}
+#form-container p{
+  font-size:14px;
+  color:grey;
+  margin-top:40px;
+}
+#sm-img{
+  display:flex;
+  justify-content:flex-start;
+}
+
+.input-group {
+  margin-top:15px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid red;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+  font-family:"Fjalla One",sans-serif;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: red;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+  font-family:"Fjalla One",sans-serif;
+}
+
+.button--submit:hover {
+  background-color: orangered;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: orangered;
+  outline: none;
+}
+#product-landing {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px;
+  overflow:hidden;
+}
+
+.card {
+  width: calc(30% - 20px); 
+  padding: 20px;
+  position: relative;
+  overflow: visible;
+  border-radius: 10px;
+  background-image: radial-gradient( circle farthest-corner at 17.1% 22.8%,  rgba(226,24,24,1) 0%, rgba(160,6,6,1) 90% );
+ box-shadow: 2px 2px 2px rgb(25, 25, 25),
+             -10px -10px 20px rgb(60, 60, 60);
+  color:white;
+  font-family:'Fjalla One', sans-serif;
+  
+}
+
+.card-img {
+  height: 70%; 
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.card-info {
+  padding-top: 5%; 
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px; 
+  border-top: 1px solid #ddd;
+}
+
+
+.text-title {
+  font-weight: 900;
+  font-size: 1em; 
+  line-height: 1.2; 
+  padding:3px;
+}
+
+.text-body {
+  font-size: 0.8em; 
+  
+  padding: 5px; 
+}
+
+
+
+.card-img:hover {
+  transform: translateY(-15%); 
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 8px 24px -5px, rgba(180, 71, 71, 0.3) 0px 4px 8px -4px;
+}
+#Contact-landing{
+  
+  height:100%;
+  width:100%;
+  border-radius: 5px  ;
+  display:flex;  
+  justify-content:space-between; 
+  padding-top:15px;    
+
+}
+.left {
+            width: 45%; 
+            background-color: #e0e0e0;
+            padding: 20px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        
+        .contact-heading {
+            font-weight: bold; 
+            font-size: 30px; 
+            margin-bottom: 20px; 
+        }
+
+
+  .right{
+    width: 50%; 
+    background-image: url('https://storage.googleapis.com/pai-images/bf6879ce68a146c09bf7cb8c2a002aa0.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10px;
+    color: #fff; 
+            }
+  footer {
+            background-color: #000; 
+            color: #fff; 
+            padding: 20px 0;  
+            text-align: center; 
+        }
+
+        
+        .social-icons {
+            font-size: 24px; 
+            padding-bottom:10px;
+        }
+
+        
+        .social-icons a {
+            color: #fff; 
+            text-decoration: none; 
+            margin: 0 10px; 
+        }
+        
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    .Home-landing {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #form-container {
+        width: 100%;
+        text-align: center;
+    }
+    #sm-img {
+        display: none;
+    }
+    .card {
+        flex-basis: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+    .Home-landing {
+        padding: 50px;
+    }
+    .card {
+        flex-basis: calc(33.33% - 20px);
+    }
+}
