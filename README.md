@@ -26,4 +26,4 @@ You can view a live demo of the Product Landing Page here: [Live Demo](https://c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/product-landing-page.git
+   git clone https://github.com/Chouikhi-abdallah/product-landing-page.git
